@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Decreases time to get inverse of matrix
+##  repeatedly by caching inverse
 
-## Write a short comment describing this function
+## Creates template list for cachable matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
